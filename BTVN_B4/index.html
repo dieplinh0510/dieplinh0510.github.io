@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: rgb(62, 66, 70);
+    }
+    .btvn_buoi4{
+      margin-left: 30px;
+    }
+    .btvn_buoi4 :first-child{
+      font-size: 40px;
+      color: white
+    }
+    .btvn_buoi4 .december{
+      color: red;
+      font-size: 30px;
+    }
+    .oclock p{
+      color: rgb(207, 202, 202);
+      font-size: 15px;
+    }
+    .oclock :first-child{
+      color: white;
+      font-weight: 500;
+      font-size: 20px;
+    }
+    img{
+      width: 100%;
+      height: auto;
+    }
+    .time{
+      display: flex;
+      flex: 1;
+    }
+    
+    .time_1_2{
+      display: flex;
+    }
+    .time_1{
+      flex: 1;
+      margin-right: 10px;
+    }
+    .time_2{
+      margin: 0 10px;
+      flex: 2;
+    }
+    .time_3_4{
+      
+      display: flex;
+    }
+    .time_3{
+      margin: 0 10px;
+      flex: 1;
+    }
+    .time_4{
+      margin: 0 10px;
+      flex: 2;
+    }
+
+    @media (min-width: 1px) and (max-width: 767px) {
+      .time{
+        display: block;
+      }
+      .time_1_2{
+        display: block;
+      }
+      .time_3_4{
+        display: block;
+      }
+    }
+    @media (min-width: 768px) and (max-width: 1024px){
+      .time{
+        display: block;
+      }
+      
+    }
+
+
+  </style>
+</head>
+<body>
+  
+  <div class="btvn_buoi4">
+
+    <p>EVENT</p>
+    <p class="december">2 December</p>
+    <div class="time">
+      <div class="time_1_2">
+        <div class="time_1">
+          <div class="oclock">
+            <p>9:00 AM</p>
+            <p>Life finds a way. You know what? It is beets.</p>
+            <br>
+          </div>
+          <hr>
+          <div class="oclock">
+            <p>10:00 AM</p>
+            <p>I've crashed into a beet truck.</p>
+            <br>
+          </div>
+          <hr>
+          <div class="oclock">
+            <p>12:30 AM</p>
+            <p>I was part of something special.</p>
+          </div>
+        
+        </div>
+  
+        <hr>
+        <div class="time_2">
+          <div class="oclock">
+            <p>13:30 AM</p>
+            <p>Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should.</p>
+            <img src="https://m.psecn.photoshelter.com/img-get/I0000poc8T2quSVc/s/1200/I0000poc8T2quSVc.jpg">
+          </div>
+        </div>
+      </div>
+        <hr>
+      
+      <div class="time_3_4">
+        <div class="time_3">
+          <div class="oclock">
+            <p>14:30 AM</p>
+            <p>Just my luck, no ice. God help us, we're in the hands of engineers.</p>
+            <br>
+          </div>
+          <hr>
+          <div class="oclock">
+            <p>15:30 AM</p>
+            <p>I gave it a cold? I gave it a virus. A computer virus.</p>
+            <br>
+          </div>
+          <hr>
+          <div class="oclock">
+            <p>16:30 AM</p>
+            <p>God creates dinosaurs. God destroys dinosuars. God creates Man. Man destroys God. Man creates Dinosaurs.</p>
+          </div>
+         
+        </div>
+        <hr>
+        
+        <div class="time_4">
+          <div class="oclock">
+            <p>17:30 AM</p>
+            <p>What do they got in there? King Kong?</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+    
+    </div> 
+
+  </div>
+</body>
+</html>
