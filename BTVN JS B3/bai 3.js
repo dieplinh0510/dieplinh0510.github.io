@@ -11,7 +11,7 @@
 //  isLive: true
 // }
 
-function postt(title, body, author, views, comments, isLive){
+function Postt(title, body, author, views, comments, isLive){
   this.title = title;
   this.body = body;
   this.views = views;
@@ -20,7 +20,7 @@ function postt(title, body, author, views, comments, isLive){
   this.comments =comments;
   this.isLive = isLive;
 }
-const post = new postt("Lam Linh", "Lam Linh", "Linh", 120, [
+const post = new Postt("Lam Linh", "Lam Linh", "Linh", 120, [
   {author: 'Linh', body: 'Linh xin gai'},
   {author: 'Lam', body: 'Lam xinh gai'},
 ], true);

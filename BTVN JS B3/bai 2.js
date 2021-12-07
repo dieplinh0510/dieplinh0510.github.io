@@ -8,7 +8,7 @@ digits2 = [0]
 digits3 = [9]
 // Output: [1,0]
 
-function add(arr){
+function Add(arr){
   let a=0;
   for (let i in arr){
     a=arr[i]+ a*10;
@@ -22,6 +22,6 @@ function add(arr){
   }
   return arr;
 }
-console.log(add(digits1));
-console.log(add(digits2));
-console.log(add(digits3));
+console.log(Add(digits1));
+console.log(Add(digits2));
+console.log(Add(digits3));
